@@ -3,11 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./css/styles.css" rel="stylesheet">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+<link href="./css/styles.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold ">
-    Hello world!
-  </h1>
+ <!-- header section -->
+    <header class="bg-black py-1 text-gega-gray font-gemunu uppercase">
+        <div class="container flex items-center justify-between space-x-16">
+          <!-- logo -->
+          <a href="#" class="text-6xl font-mono text-transparent bg-gradient-to-r bg-clip-text from-gega-red to-gega-gray">YIGIT</a>
+
+          <!-- navigation -->
+          <nav class="flex justify-between flex-1">
+            <!-- menu -->
+            <div class="flex items-center text-lg space-x-8">
+            <a href="#" class="hover:text-gega-blue transition duration-500">home</a>  
+            <a href="#" class="hover:text-gega-blue transition duration-500">about</a>  
+            <a href="#" class="hover:text-gega-blue transition duration-500">commination</a>  
+            <a href="#" class="hover:text-gega-blue transition duration-500">why are we?</a>  
+            </div>
+            <!-- login area -->
+            <div class="flex items-center space-x-8">
+              <!-- search area -->
+              <form >
+                <div class=" group border-r px-4 mx-4 py-1  border-gega-red">
+                  <input type="text" class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-gega-red focus:outline-none w-44 transition duration-500">
+                  <button class="-ml-4 group-hover:ml-0 transition duration-500"><i class="fas fa-search group-hover:text-gega-red transition duration-500"></i></button>
+                </div>
+              </form>
+              <!-- s;=ignup area -->
+              <div class="flex items-center space-x-8 text-lg">
+                <a href="#" class="hover:text-gega-blue transition duration-500">login</a>
+                <a href="#" class="bg-gega-red px-3 py-1 hover:bg-rose-600 hover:text-gega-gray cursor-pointer transition duration-500">sing up</a>
+
+              </div>
+            </div>
+          </nav>
+        </div>
+    </header>
 </body>
 </html>
