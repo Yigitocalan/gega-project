@@ -1,50 +1,115 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts silindi -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
-<link href="./css/styles.css" rel="stylesheet">
 </head>
+
 <body>
- <!-- header section -->
-    <header class="bg-black py-1 text-gega-gray font-gemunu uppercase">
-        <div class="container flex items-center justify-between space-x-16">
-          <!-- logo -->
-          <a href="#" class="text-6xl font-mono text-transparent bg-gradient-to-r bg-clip-text from-gega-red to-gega-gray">YIGIT</a>
+    <!-- header section -->
+    <header class="bg-[#18181b] py-1 text-[#09090b] font-mono	font-family: ui-monospace relative	position: relative;">
+        <div class="container flex items-center justify-between space-x-16 ">
+            <!-- logo -->
+            <a href="#" class="text-6xl font-mono	font-family: ui-monospace text-transparent bg-gradient-to-r bg-clip-text from-[#f8fafc] to-[#9ca3af]">Kafkal</a>
 
-          <!-- navigation -->
-          <nav class="flex justify-between flex-1">
-            <!-- menu -->
-            <div class="flex items-center text-lg space-x-8">
-            <a href="#" class="hover:text-gega-blue transition duration-500">home</a>  
-            <a href="#" class="hover:text-gega-blue transition duration-500">about</a>  
-            <a href="#" class="hover:text-gega-blue transition duration-500">commination</a>  
-            <a href="#" class="hover:text-gega-blue transition duration-500">why are we?</a>  
-            </div>
-            <!-- login area -->
-            <div class="flex items-center space-x-8">
-              <!-- search area -->
-              <form >
-                <div class=" group border-r px-4 mx-4 py-1  border-gega-red">
-                  <input type="text" class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-gega-red focus:outline-none w-44 transition duration-500">
-                  <button class="-ml-4 group-hover:ml-0 transition duration-500"><i class="fas fa-search group-hover:text-gega-red transition duration-500"></i></button>
+            <!-- navigation -->
+            <nav class="flex justify-between flex-1 ">
+                <!-- menu -->
+                <div class="flex items-center text-lg space-x-8">
+                    <a href="#" class="text-white hover:text-[#94a3b8] transition duration-500 font-normal	font-medium: 600;">Home</a>
+                    <a href="#" class="text-white hover:text-[#94a3b8] transition duration-500 font-normal	font-medium: 600;">About</a>
+                    <a href="#" class=" text-white hover:text-[#94a3b8] transition duration-500 font-normal	font-medium: 600;">Commination</a>
+                    <a href="#" class=" text-white hover:text-[#94a3b8] transition duration-500 font-normal	font-medium: 600;">Why are we?</a>
                 </div>
-              </form>
-              <!-- s;=ignup area -->
-              <div class="flex items-center space-x-8 text-lg">
-                <a href="#" class="hover:text-gega-blue transition duration-500">login</a>
-                <a href="#" class="bg-gega-red px-3 py-1 hover:bg-rose-600 hover:text-gega-gray cursor-pointer transition duration-500">sing up</a>
+                <!-- login area -->
+                <div class="text-white flex items-center space-x-8">
+                    <!-- search area -->
+                    <form>
+                        <div class=" group border-r px-4 mx-4 py-1  border-[#dc2626]">
+                            <input type="text" class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-[#dc2626] focus:outline-none w-44 transition duration-500">
+                            <!-- <button class="-ml-4  ml-0 transition duration-500">
+                              <i class="fas fa-search group-hover:text-[#dc2626] transition duration-500"></i>
+                            </button> -->
+                        </div>
+                    </form>
+                    <!-- s;=ignup area -->
+                    <div class="flex items-center space-x-8 text-lg">
+                        <a href="#" class="hover:text-[#94a3b8] transition duration-500">login</a>
+                        <a href="#" class="bg-[#dc2626] px-3 py-1 hover:bg-[#334155] hover:text-[#3f3f46]cursor-pointer transition duration-500">sign up</a>
 
-              </div>
-            </div>
-          </nav>
+                    </div>
+                </div>
+            </nav>
         </div>
     </header>
+
+    <div class="relative flex justify-center">
+
+        <div class="px-4 w-full ">
+            <img src="photo-1605379399642-870262d3d051.avif" alt="Resim" class="w-full h-96  ">
+            <div class="px-4">
+                <div class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+            </div>
+        </div>
+
+
+        <div class="absolute top-0 left-0 right-0 bottom-20 flex items-center justify-center ">
+            <p class="text-white text-7xl font-bold text-center bg-gradient-to-l from-black via-gray-700 to-transparent bg-black bg-opacity-50 bg-opacity-{value} bg-white bg-opacity-50">Kafkal Yazılım</p>
+        </div>
+    </div>
+
+    <div class="flex flex-row justify-center items-center mt-10 ">
+        <div class="grid grid-cols-3 gap-6 px-12">
+            <div class="relative">
+                <img src="/pexels-photo-693859.jpg" alt="Resim" class="w-full h-auto">
+                <button class="absolute top-0 right-0 p-2 bg-black">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white hover:bg-green" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor ">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path>
+              </svg>
+          </button>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path>
+        </svg>
+            </div>
+            <div class="relative">
+                <img src="/pexels-photo-546819.webp" alt="Resim" class="w-full h-auto">
+                <button class="absolute top-0 right-0 p-2 bg-black">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path>
+                  </svg>
+              </button>
+            </div>
+            <div class="relative">
+                <img src="/pexels-photo-2004161.jpg" alt="Resim" class="w-full h-auto">
+                <button class="absolute top-0 right-0 p-2 bg-black">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path>
+                </svg>
+            </button>
+            </div>
+
 </body>
+
 </html>
